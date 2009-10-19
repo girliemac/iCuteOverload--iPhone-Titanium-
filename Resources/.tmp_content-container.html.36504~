@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="spinner"></div>
+		<script>
+			
+	
+			
+			
+			
+				var xhr = Titanium.Network.createHTTPClient();
+				xhr.onreadystatechange = function() {
+					if (this.readyState == 4) {
+						
+						// create new web view
+						var webView = Titanium.UI.createWebView({url:'content.html'});
+			
+						// add new web view to your window
+						Titanium.UI.currentWindow.addView(webView);
+						
+						// show your new web view
+						Titanium.UI.currentWindow.showView(webView);
+						ind.hide();
+					}
+				};
+				// open the client
+				xhr.open('GET','content.html');
+				
+				// create a spinner
+				var ind = Titanium.UI.createActivityIndicator({
+					id:'spinner',
+					style:Titanium.UI.iPhone.ActivityIndicatorStyle.DARK
+				});
+				ind.show();
+				
+				// send the data
+				xhr.send();
+			
+			
+			
+		</script>
+	</body>
+</html>

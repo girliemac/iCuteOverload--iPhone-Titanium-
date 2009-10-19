@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="content.js" type="text/javascript"></script>
+	</head>
+	<body>
+		
+		<div id="spinnerContainer"><div id="spinner"></div></div>
+		<div id="container">
+			<h2 id="title"></h2>
+			<div id="date"></div>
+			<div id="content"></div>
+		</div>
+		
+		<script>
+			//spinner position css
+			var halfHeight = window.innerHeight/2 - 18;
+			document.getElementById('spinnerContainer').style.top = halfHeight + 'px';
+
+			window.onload = function(){
+				initContent('#FDDA66','content.html');
+			}
+		</script>
+	</body>
+</html>

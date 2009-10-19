@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="rss.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="spinner"></div>
+	
+	<script>
+	var feed = 'http://cuteoverload.com/feed/';
+	var html = 'content.html';
+	
+	window.onload = function(){
+		init(feed,html);
+	}
+	</script>
+</body>
+</html>

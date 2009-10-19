@@ -1,0 +1,41 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body id="about">
+	<div id="aboutLogo">
+		<img src="images/co_about_logo.png" />
+		<div style="text-align:right; padding-right:10px">Version <span id="version"></span></div>
+	</div>
+	
+	<p>
+	iCuteOverload is a handy, iPhone-optimized version of an award-winning popular blog CuteOverload, maintained by Megan Frost. 
+	This app allows you to view cute little animals anywhere, anytime!
+	</p>
+	
+	<p id="twitter">
+		<img src="images/twitter.png"/>Follow me on Twitter!
+	</p>
+	
+	<p>And super special thanks to <a id="appcelerator" href="">Appcelerator</a> team for the wonderful product and support!</p>
+	
+	<p id="copyright">
+		Copyright &copy; 2009 Tomomi Imura / girliemac.com  - All Rights Reserved.<br/><br/>
+		Content Copyright &copy; 2009 Cute Overload.com  - All Rights Reserved.
+	</p>
+	<script>
+	window.onload = function() {
+		var version = Titanium.App.getVersion();
+		document.getElementById('version').innerHTML = version;
+	};
+	
+	document.getElementById('twitter').addEventListener('click', function(e){
+		Titanium.Platform.openURL('http://m.twitter.com/girliemac_apps');
+	});
+	document.getElementById('appcelerator').addEventListener('click', function(e){
+		Titanium.Platform.openURL('http://appcelerator.com');
+		return false;
+	});
+	</script>
+</body>
+</html>

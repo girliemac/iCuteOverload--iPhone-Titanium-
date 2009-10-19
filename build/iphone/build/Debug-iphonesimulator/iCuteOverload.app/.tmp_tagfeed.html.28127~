@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="rss.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="spinner"></div>
+	<div id="nextContent" style="display:none"></div>
+	
+	<script>
+	var tag = Titanium.App.Properties.getString('tag');
+	var feed = 'http://cuteoverload.com/tag/' +tag+ '/feed/';
+	var html = 'tag-content.html';
+	var barColor = '#50B8E0';
+	
+	window.onload = function(){
+		init(feed,html,barColor,false);
+	}
+	</script>
+</body>
+</html>

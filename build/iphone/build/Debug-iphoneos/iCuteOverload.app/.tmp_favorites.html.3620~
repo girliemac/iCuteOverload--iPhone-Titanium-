@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<script>
+
+		window.onload = function(){
+			var list = getData();
+			Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> Fave list length= '+list.length);
+			var win = Titanium.UI.currentWindow;
+			
+			var tableView = Titanium.UI.createTableView({data:list}, function(e) {
+				var idx = e.index;
+				var win = Titanium.UI.createWindow({url:'fave-content.html'});
+				
+				var prop = Titanium.App.Properties;
+				prop.setInt('index', idx);
+				prop.setList('list', list);
+				
+				win.setBarColor('#FFA3C8');
+				
+				// create a spinner
+					var ind = Titanium.UI.createActivityIndicator({
+					id:'spinner',
+					style:Titanium.UI.iPhone.ActivityIndicatorStyle.DARK
+				});
+					Titanium.UI.currentWindow.setTitleControl(ind);
+					ind.show();
+				
+				// preload the image to be opened
+				var contentDiv = document.createElement('div');
+				contentDiv.innerHTML = list[page].content;
+				
+				if (contentDiv.getElementsByTagName("img")[0]) {
+					var img0 = new Image();
+		    		img0.src = contentDiv.getElementsByTagName("img")[0].src;
+				
+					img0.onload = function(){
+						win.open({
+							animated: true
+						});
+						ind.hide();
+					};
+				}else{
+					win.open({
+							animated: true
+						});
+					ind.hide();
+				}
+				});
+			
+			// Refresh the data and rebuild the view when the page is re-displayed
+			Titanium.UI.currentWindow.addEventListener('focused',function() { 
+				list = getData(); 
+				tableView.setData(list,{
+					animationStyle: Titanium.UI.iPhone.RowAnimationStyle.DOWN
+				}); 
+
+			}) 
+			
+			Titanium.UI.currentWindow.addView(tableView);
+			Titanium.UI.currentWindow.showView(tableView);
+			
+			// get data from DB
+			function getData(){
+				var faveList = [];
+				
+				var db = Titanium.Database.open('cuteDB');
+				var rows = db.execute('SELECT * FROM myFavorites');
+				
+				while (rows.isValidRow()) {
+					faveList.push({
+						id: rows.fieldByName('id'),
+						title: rows.fieldByName('title'),
+						date: rows.fieldByName('date'),
+						content: rows.fieldByName('content'),
+						hasChild: true,
+						image: 'images/duckie_fave.png'
+					});
+					rows.next();
+				}
+				db.close();
+	
+				// make the newest addition on top
+				faveList.reverse();
+				
+				return faveList;
+			}
+			
+			// To do - swipe to delete
+		}
+		
+		</script>
+	</body>
+</html>

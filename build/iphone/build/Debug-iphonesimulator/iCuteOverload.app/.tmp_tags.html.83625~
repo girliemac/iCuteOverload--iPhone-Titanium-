@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<script>
+			
+		window.onload = function(){
+			var win = Titanium.UI.currentWindow;
+			//win.setBarColor('#50B8E0');
+			
+			var tags = [
+			    {title:'Kittens', hasChild:true, tag:'kittens'},
+			    {title:'Pups', hasChild:true, tag:'pups'},
+			    {title:'Pocket-Pets', hasChild:true, tag:'pocket-pets'},
+				{title:'Unusual Animals', hasChild:true, tag:'unusual-animals'},
+				{title:'Bunnies', hasChild:true, tag:'bunnies'},
+				{title:'Birds', hasChild:true, tag:'birds'},
+				{title:'Interspecies Snorgling', hasChild:true, tag:'interspecies-snorgling'},
+				{title:'Product Cuteness', hasChild:true, tag:'product-cuteness'},
+				{title:'I shall leeck you', hasChild:true, tag:'i-shall-leeck-you'},
+				{title:'This Just In!', hasChild:true, tag:'this-just-in', tag:'this-just-in'},
+				{title:'Farm Animals', hasChild:true, tag:'farm-animals'},
+				{title:'Primates', hasChild:true, tag:'primates'},
+				{title:'Cartoons', hasChild:true, tag:'cartoons'},
+				{title:'Cute or Sad?', hasChild:true, tag:'cute-or-sad'},
+			];
+			
+			var tableView = Titanium.UI.createTableView({data:tags}, function(e) {
+				var idx = e.index;
+				var title = 'Tag: '+ tags[idx].title
+				var win = Titanium.UI.createWindow({url:'tagfeed.html',title:title});
+				Titanium.App.Properties.setString('tag', tags[idx].tag);
+				win.setBarColor('#50B8E0');
+				win.open({animated:true});
+				});
+			
+			Titanium.UI.currentWindow.addView(tableView);
+			Titanium.UI.currentWindow.showView(tableView);
+		}
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>About Titanium</title>
+	<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h2>About iCuteOverload</h2>
+	<p>You are running iCuteOverload version <span id="version"></span>.</p>
+	
+	<script>
+	window.onload = function() {
+		document.getElementById('version').innerHTML = Titanium.version;
+	};
+	</script>
+</body>
+</html>

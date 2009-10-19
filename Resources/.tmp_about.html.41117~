@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>About Titanium</title>
+	<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h2>About iCuteOverload</h2>
+	<p>You are running iCuteOverload version <span id="version"></span> on <span id="phone"></span></p>
+	
+	<script>
+	window.onload = function() {
+		document.getElementById('version').innerHTML = Titanium.version;
+		document.getElementById('phone').innerHTML = Titanium.Platform.version;
+	};
+	</script>
+</body>
+</html>

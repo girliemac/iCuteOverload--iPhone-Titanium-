@@ -1,0 +1,1025 @@
+TiCuteOverload
+v7
+r0
+t277682793.665631
+cCheck dependencies
+cCpResource build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist Info.plist
+cPhaseScriptExecution "Run Script" /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+cCompileXIB /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/MainWindow.xib
+cCopyPNGFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png Resources/Default.png
+cCopyPlistFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/tiapp.plist Resources/tiapp.plist
+cCopyPlistFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Entitlements.plist Resources/Entitlements.plist
+cProcessPCH /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch.gch iCuteOverload_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/main.o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/ApplicationRouting.o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload normal armv6
+cGenerateDSYMFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app.dSYM /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload
+cProcessProductPackaging "/Users/tomomi/Library/MobileDevice/Provisioning Profiles/iCO_Provisioning_Profile.mobileprovision" /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision
+cTouch /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent
+cCodeSign /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004ABDAC790000000000000110
+t1253944441
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004A0BA04000000000000000DD
+t1242275904
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004A0BA04000000000000001E5
+t1242275904
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A12213B000000000001B0E0
+t1242702139
+s110816
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004A1221B6000000000005E250
+t1242702262
+s385616
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004A122255000000000019A6D0
+t1242702421
+s1681104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A12212500000000002CE5F0
+t1242702117
+s2942448
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A1222C30000000000080DA0
+t1242702531
+s527776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004A12232A00000000001D2A20
+t1242702634
+s1911328
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004A1223F00000000000187E90
+t1242702832
+s1605264
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004A12240600000000000CFB30
+t1242702854
+s850736
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A1220EF00000000000380E0
+t1242702063
+s229600
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A121F7D0000000000089F30
+t1242701693
+s565040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libsqlite3.dylib
+c000000004A121E7D00000000000A9280
+t1242701437
+s692864
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libz.dylib
+c000000004A121D1A0000000000022540
+t1242701082
+s140608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004ABDAC680000000000000110
+t1253944424
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A767D3000000000000000DD
+t1249279280
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A76573E000000000001AD10
+t1249269566
+s109840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A76555800000000002E0B30
+t1249269080
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A77B0F20000000000085550
+t1249358066
+s546128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004A860FF40000000000178100
+t1250299892
+s1540352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004A76680600000000000C32C0
+t1249273862
+s799424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A7654FE00000000000D7460
+t1249268990
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libsqlite3.dylib
+c000000004A765038000000000010BF50
+t1249267768
+s1097552
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libz.dylib
+c000000004A764E8E00000000000335C0
+t1249267342
+s210368
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A67D2580000000000CE6940
+t1248318040
+s13527360
+
+N/Users/tomomi/Library/MobileDevice/Provisioning Profiles/iCO_Provisioning_Profile.mobileprovision
+c000000004AD38C840000000000001C20
+t1255378052
+s7200
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.h
+c000000004ADCE2DC0000000000000321
+t1255989980
+s801
+i<Foundation/Foundation.h>
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m
+c000000004ADCE2DC0000000000009798
+t1255989980
+s38808
+i<Foundation/Foundation.h>
+i"ApplicationRouting.h"
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/Default.png
+c000000004ADCE2DC0000000000006336
+t1255989980
+s25398
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/Entitlements.plist
+c000000004ACE4C2D00000000000000E1
+t1255033901
+s225
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/MainWindow.xib
+c000000004ADCE2DD0000000000002AE4
+t1255989981
+s10980
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/libTitanium.a
+c000000004ADCE2DD00000000004D03D0
+t1255989981
+s5047248
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/tiapp.plist
+c000000004ADCE2DD000000000000038A
+t1255989981
+s906
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+t1255989993
+s2176
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app.dSYM
+t1255989992
+s102
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png
+t1255989987
+s30705
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Entitlements.plist
+t1255989987
+s62
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist
+t1255989986
+s714
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/MainWindow.nib
+t1255989989
+s2067
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/PkgInfo
+t1255989985
+s8
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist
+t1255989986
+s150
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision
+t1255989992
+s7200
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload
+t1255989992
+s614376
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/tiapp.plist
+t1255989987
+s906
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/ApplicationRouting.o
+t1255989991
+s55056
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/iCuteOverload.LinkFileList
+c000000004AD396D70000000000000130
+t1255380695
+s304
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/main.o
+t1255989991
+s8040
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+c000000004AD396D700000000000001CE
+t1255380695
+s462
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent
+t1255989992
+s324
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch
+c000000004ACE4C2D0000000000000086
+t1255033901
+s134
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m
+c000000004ADCE2DC0000000000000430
+t1255989980
+s1072
+i<UIKit/UIKit.h>
+
+N/var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-befiabxxwkusuabzleoyjsacbcyr/iCuteOverload_Prefix.pch.gch
+t1255587142
+s7876792
+
+N/var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch.gch
+t1255989990
+s7831680
+
+N/var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-hflmpnogfdecfraywoimptflurno/iCuteOverload_Prefix.pch.gch
+t1255405477
+s7831680
+
+NInfo.plist
+c000000004ADCE2DD00000000000003B3
+t1255989981
+s947
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies277682783#277682785#0(0"0(0#1#0"2334097638073460224#0"0#
+
+CCodeSign /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+s277682792.308523
+e277682793.665340
+r1
+xCodeSign
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/iCuteOverload.app277682792#277682793#0(0"0(0#0#94"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app4301200840#744"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Tomomi Imura (8PB35JVJTA)" --resource-rules=/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist --entitlements /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app0#
+
+CCompileC build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/ApplicationRouting.o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277682791.124389
+e277682791.283433
+r1
+xCompileC
+xbuild/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/ApplicationRouting.o
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m277682791#277682791#0(0"0(0#0#84"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m4301200840#2085"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-generated-files.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-own-target-headers.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-all-target-headers.hmap -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-project-headers.hmap -F/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/include -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources/armv6 -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources -include /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Classes/ApplicationRouting.m -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/ApplicationRouting.o0#
+
+CCompileC build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/main.o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277682791.123428
+e277682791.256885
+r1
+xCompileC
+xbuild/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/main.o
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m277682791#277682791#0(0"0(0#0#62"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m4301200840#2049"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-generated-files.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-own-target-headers.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-all-target-headers.hmap -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-project-headers.hmap -F/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/include -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources/armv6 -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources -include /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/main.m -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/MainWindow.xib
+s277682787.209945
+e277682789.520492
+r1
+xCompileXIB
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/MainWindow.xib
+lSLF07#2@35"CompileXIB Resources/MainWindow.xib277682787#277682789#0(0"0(0#0#80"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/MainWindow.xib29555229039984744#533"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/MainWindow.nib /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/MainWindow.xib0#
+
+CCopyPNGFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png Resources/Default.png
+s277682787.210659
+e277682787.510583
+r1
+xCopyPNGFile
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png
+xResources/Default.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/iCuteOverload.app/Default.png Resources/Default.png277682787#277682787#0(0"0(0#0#77"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/Default.png4301200840#629"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/Default.png /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png0#
+
+CCopyPlistFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Entitlements.plist Resources/Entitlements.plist
+s277682787.905535
+e277682787.947830
+r1
+xCopyPlistFile
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Entitlements.plist
+xResources/Entitlements.plist
+lSLF07#2@33"Copy Resources/Entitlements.plist277682787#277682787#0(0"0(0#0#84"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/Entitlements.plist4301200840#429"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Entitlements.plist --outdir /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app0#
+
+CCopyPlistFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/tiapp.plist Resources/tiapp.plist
+s277682787.510852
+e277682787.905368
+r1
+xCopyPlistFile
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/tiapp.plist
+xResources/tiapp.plist
+lSLF07#2@26"Copy Resources/tiapp.plist277682787#277682787#0(0"0(0#0#77"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Resources/tiapp.plist4301200840#422"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/tiapp.plist --outdir /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app0#
+
+CCpResource build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+s277682785.832705
+e277682785.874470
+r1
+xCpResource
+xbuild/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist277682785#277682785#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist7297009443364890624#520"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app0#
+
+CCpResource build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s277279938.716691
+e277279938.752218
+r1
+xCpResource
+xbuild/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist277279938#277279938#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist7297009443364890624#520"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app0#
+
+CGenerateDSYMFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app.dSYM /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload
+s277682792.127451
+e277682792.275178
+r1
+xGenerateDSYMFile
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app.dSYM
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/iCuteOverload.app.dSYM build/Debug-iphoneos/iCuteOverload.app/iCuteOverload277682792#277682792#0(0"0(0#0#108"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload4301200840#431"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app.dSYM0#
+
+CLd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload normal armv6
+s277682791.283553
+e277682792.127256
+r1
+xLd
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload
+xnormal
+xarmv6
+lSLF07#2@113"Link /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload277682791#277682792#0(0"0(0#0#0"4301200840#1399"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -L/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone -LResources -F/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -filelist /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/iCuteOverload.LinkFileList -mmacosx-version-min=10.5 -dead_strip -framework Foundation -framework UIKit -ObjC -miphoneos-version-min=3.0 -framework SystemConfiguration -framework AVFoundation -framework CoreLocation -lz -framework AudioToolbox -framework Foundation -framework UIKit -framework MediaPlayer -framework CoreGraphics -lTitanium -lsqlite3 -framework MessageUI -framework OpenGLES -framework QuartzCore -framework MapKit -framework AddressBook -framework AddressBookUI -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iCuteOverload0#
+
+CPhaseScriptExecution "Run Script" /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+s277682785.876795
+e277682787.208943
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+oiphoneos-optimize: Converting plists to binary in /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/
+oiphoneos-optimize: Converted to binary plist: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist
+oiphoneos-optimize: Converted to binary plist: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist
+oiphoneos-optimize: Optimizing PNGs in /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon.png
+o   Total length of data found in IDAT chunks    =     2122
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     2321
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon-pngcrush.png
+o     (9.38% IDAT increase)
+o     (6.64% filesize increase)
+o
+o   CPU time used = 0.002 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png
+o   Total length of data found in IDAT chunks    =    24524
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    29831
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default-pngcrush.png
+o     (21.64% IDAT increase)
+o     (20.90% filesize increase)
+o
+o   CPU time used = 0.134 seconds (decoding 0.003,
+o          encoding 0.129, other 0.003 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30.png
+o   Total length of data found in IDAT chunks    =      537
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      719
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30-pngcrush.png
+o     (33.89% IDAT increase)
+o     (28.12% filesize increase)
+o
+o   CPU time used = 0.003 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo.png
+o   Total length of data found in IDAT chunks    =     3122
+o   Truncating trailing opaque entries from tRNS chunk.
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3669
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo-pngcrush.png
+o     (17.52% IDAT increase)
+o     (12.56% filesize increase)
+o
+o   CPU time used = 0.014 seconds (decoding 0.000,
+o          encoding 0.012, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger.png
+o   Total length of data found in IDAT chunks    =    18115
+oHandling unknown chunk 0
+oHandling unknown chunk 1
+oHandling unknown chunk 2
+oHandling unknown chunk 3
+oHandling unknown chunk 4
+oHandling unknown chunk 5
+oHandling unknown chunk 6
+oHandling unknown chunk 7
+oHandling unknown chunk 8
+oHandling unknown chunk 9
+oHandling unknown chunk 10
+oHandling unknown chunk 11
+oHandling unknown chunk 12
+oHandling unknown chunk 13
+oHandling unknown chunk 14
+oHandling unknown chunk 15
+oHandling unknown chunk 16
+oHandling unknown chunk 17
+oHandling unknown chunk 18
+oHandling unknown chunk 19
+oHandling unknown chunk 20
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    19016
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger-pngcrush.png
+o     (4.97% IDAT increase)
+o     (70.39% filesize reduction)
+o
+o   CPU time used = 0.104 seconds (decoding 0.004,
+o          encoding 0.092, other 0.008 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo.png
+o   Total length of data found in IDAT chunks    =     9506
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     9496
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo-pngcrush.png
+o     (0.11% IDAT reduction)
+o     (0.06% filesize reduction)
+o
+o   CPU time used = 0.039 seconds (decoding 0.001,
+o          encoding 0.034, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie.png
+o   Total length of data found in IDAT chunks    =      228
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      262
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie-pngcrush.png
+o     (14.91% IDAT increase)
+o     (6.15% filesize increase)
+o
+o   CPU time used = 0.001 seconds (decoding 0.000,
+o          encoding 0.000, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave.png
+o   Total length of data found in IDAT chunks    =      265
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      306
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave-pngcrush.png
+o     (15.47% IDAT increase)
+o     (6.05% filesize increase)
+o
+o   CPU time used = 0.001 seconds (decoding 0.000,
+o          encoding 0.000, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30.png
+o   Total length of data found in IDAT chunks    =      307
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      392
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30-pngcrush.png
+o     (27.69% IDAT increase)
+o     (21.31% filesize increase)
+o
+o   CPU time used = 0.002 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30.png
+o   Total length of data found in IDAT chunks    =      348
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      589
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30-pngcrush.png
+o     (69.25% IDAT increase)
+o     (58.14% filesize increase)
+o
+o   CPU time used = 0.003 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30.png
+o   Total length of data found in IDAT chunks    =      330
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      477
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30-pngcrush.png
+o     (44.55% IDAT increase)
+o     (38.44% filesize increase)
+o
+o   CPU time used = 0.002 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported.png
+o   Total length of data found in IDAT chunks    =     4299
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4830
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported-pngcrush.png
+o     (12.35% IDAT increase)
+o     (10.26% filesize increase)
+o
+o   CPU time used = 0.013 seconds (decoding 0.001,
+o          encoding 0.010, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30.png
+o   Total length of data found in IDAT chunks    =      363
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      524
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30-pngcrush.png
+o     (44.35% IDAT increase)
+o     (33.40% filesize increase)
+o
+o   CPU time used = 0.002 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter.png
+o   Total length of data found in IDAT chunks    =     3420
+oHandling unknown chunk 0
+oHandling unknown chunk 1
+oHandling unknown chunk 2
+oHandling unknown chunk 3
+oHandling unknown chunk 4
+oHandling unknown chunk 5
+oHandling unknown chunk 6
+oHandling unknown chunk 7
+oHandling unknown chunk 8
+oHandling unknown chunk 9
+oHandling unknown chunk 10
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3582
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter-pngcrush.png
+o     (4.74% IDAT increase)
+o     (70.14% filesize reduction)
+o
+o   CPU time used = 0.007 seconds (decoding 0.000,
+o          encoding 0.003, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube.png
+o   Total length of data found in IDAT chunks    =    11665
+oHandling unknown chunk 0
+oHandling unknown chunk 1
+oHandling unknown chunk 2
+oHandling unknown chunk 3
+oHandling unknown chunk 4
+oHandling unknown chunk 5
+oHandling unknown chunk 6
+oHandling unknown chunk 7
+oHandling unknown chunk 8
+oHandling unknown chunk 9
+oHandling unknown chunk 10
+oHandling unknown chunk 11
+oHandling unknown chunk 12
+oHandling unknown chunk 13
+oHandling unknown chunk 14
+oHandling unknown chunk 15
+oHandling unknown chunk 16
+oHandling unknown chunk 17
+oHandling unknown chunk 18
+oHandling unknown chunk 19
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    12529
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube-pngcrush.png
+o     (7.41% IDAT increase)
+o     (78.38% filesize reduction)
+o
+o   CPU time used = 0.023 seconds (decoding 0.001,
+o          encoding 0.016, other 0.006 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube.png
+lSLF07#2@36"Run custom shell script 'Run Script'277682785#277682787#0(24445"iphoneos-optimize: Converting plists to binary in /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/iphoneos-optimize: Converted to binary plist: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plistiphoneos-optimize: Converted to binary plist: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plistiphoneos-optimize: Optimizing PNGs in /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon.png   Total length of data found in IDAT chunks    =     2122   IDAT length with method 120 (fm 1 zl 9 zs 1) =     2321   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon-pngcrush.png     (9.38% IDAT increase)     (6.64% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png   Total length of data found in IDAT chunks    =    24524   IDAT length with method 120 (fm 1 zl 9 zs 1) =    29831   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default-pngcrush.png     (21.64% IDAT increase)     (20.90% filesize increase)   CPU time used = 0.134 seconds (decoding 0.003,          encoding 0.129, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30.png   Total length of data found in IDAT chunks    =      537   IDAT length with method 120 (fm 1 zl 9 zs 1) =      719   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30-pngcrush.png     (33.89% IDAT increase)     (28.12% filesize increase)   CPU time used = 0.003 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo.png   Total length of data found in IDAT chunks    =     3122   Truncating trailing opaque entries from tRNS chunk.   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3669   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo-pngcrush.png     (17.52% IDAT increase)     (12.56% filesize increase)   CPU time used = 0.014 seconds (decoding 0.000,          encoding 0.012, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger.png   Total length of data found in IDAT chunks    =    18115Handling unknown chunk 0Handling unknown chunk 1Handling unknown chunk 2Handling unknown chunk 3Handling unknown chunk 4Handling unknown chunk 5Handling unknown chunk 6Handling unknown chunk 7Handling unknown chunk 8Handling unknown chunk 9Handling unknown chunk 10Handling unknown chunk 11Handling unknown chunk 12Handling unknown chunk 13Handling unknown chunk 14Handling unknown chunk 15Handling unknown chunk 16Handling unknown chunk 17Handling unknown chunk 18Handling unknown chunk 19Handling unknown chunk 20   IDAT length with method 120 (fm 1 zl 9 zs 1) =    19016   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger-pngcrush.png     (4.97% IDAT increase)     (70.39% filesize reduction)   CPU time used = 0.104 seconds (decoding 0.004,          encoding 0.092, other 0.008 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo.png   Total length of data found in IDAT chunks    =     9506   IDAT length with method 120 (fm 1 zl 9 zs 1) =     9496   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo-pngcrush.png     (0.11% IDAT reduction)     (0.06% filesize reduction)   CPU time used = 0.039 seconds (decoding 0.001,          encoding 0.034, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie.png   Total length of data found in IDAT chunks    =      228   IDAT length with method 120 (fm 1 zl 9 zs 1) =      262   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie-pngcrush.png     (14.91% IDAT increase)     (6.15% filesize increase)   CPU time used = 0.001 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave.png   Total length of data found in IDAT chunks    =      265   IDAT length with method 120 (fm 1 zl 9 zs 1) =      306   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave-pngcrush.png     (15.47% IDAT increase)     (6.05% filesize increase)   CPU time used = 0.001 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30.png   Total length of data found in IDAT chunks    =      307   IDAT length with method 120 (fm 1 zl 9 zs 1) =      392   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30-pngcrush.png     (27.69% IDAT increase)     (21.31% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30.png   Total length of data found in IDAT chunks    =      348   IDAT length with method 120 (fm 1 zl 9 zs 1) =      589   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30-pngcrush.png     (69.25% IDAT increase)     (58.14% filesize increase)   CPU time used = 0.003 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30.png   Total length of data found in IDAT chunks    =      330   IDAT length with method 120 (fm 1 zl 9 zs 1) =      477   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30-pngcrush.png     (44.55% IDAT increase)     (38.44% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported.png   Total length of data found in IDAT chunks    =     4299   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4830   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported-pngcrush.png     (12.35% IDAT increase)     (10.26% filesize increase)   CPU time used = 0.013 seconds (decoding 0.001,          encoding 0.010, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30.png   Total length of data found in IDAT chunks    =      363   IDAT length with method 120 (fm 1 zl 9 zs 1) =      524   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30-pngcrush.png     (44.35% IDAT increase)     (33.40% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter.png   Total length of data found in IDAT chunks    =     3420Handling unknown chunk 0Handling unknown chunk 1Handling unknown chunk 2Handling unknown chunk 3Handling unknown chunk 4Handling unknown chunk 5Handling unknown chunk 6Handling unknown chunk 7Handling unknown chunk 8Handling unknown chunk 9Handling unknown chunk 10   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3582   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter-pngcrush.png     (4.74% IDAT increase)     (70.14% filesize reduction)   CPU time used = 0.007 seconds (decoding 0.000,          encoding 0.003, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube.png   Total length of data found in IDAT chunks    =    11665Handling unknown chunk 0Handling unknown chunk 1Handling unknown chunk 2Handling unknown chunk 3Handling unknown chunk 4Handling unknown chunk 5Handling unknown chunk 6Handling unknown chunk 7Handling unknown chunk 8Handling unknown chunk 9Handling unknown chunk 10Handling unknown chunk 11Handling unknown chunk 12Handling unknown chunk 13Handling unknown chunk 14Handling unknown chunk 15Handling unknown chunk 16Handling unknown chunk 17Handling unknown chunk 18Handling unknown chunk 19   IDAT length with method 120 (fm 1 zl 9 zs 1) =    12529   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube-pngcrush.png     (7.41% IDAT increase)     (78.38% filesize reduction)   CPU time used = 0.023 seconds (decoding 0.001,          encoding 0.016, other 0.006 seconds)iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube.png417(13@146"iphoneos-optimize: Converting plists to binary in /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/277682786#0#146#0(1@0"0(13@152"iphoneos-optimize: Converted to binary plist: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist277682786#146#152#0(1@0"0(13@161"iphoneos-optimize: Converted to binary plist: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist277682786#298#161#0(1@0"0(13@134"iphoneos-optimize: Optimizing PNGs in /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/277682786#459#134#0(1@0"0(13@18" | pngcrush 1.6.4277682786#594#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#612#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#669#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#712#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#779#63#0(1@0"0(13@23" | payment of any fee.277682786#842#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#865#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#896#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#946#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#1014#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#1072#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#1119#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#1179#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#1242#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#1281#77#0(1@0"0(13@124"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon.png277682786#1359#124#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     2122277682786#1483#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     2321277682786#1542#59#0(1@0"0(13@167"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon-pngcrush.png277682786#1601#167#0(1@0"0(13@27"     (9.38% IDAT increase)277682786#1768#27#0(1@0"0(13@31"     (6.64% filesize increase)277682786#1795#31#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277682786#1827#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277682786#1877#47#0(1@0"0(13@141"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/appicon.png277682786#1925#141#0(1@0"0(13@18" | pngcrush 1.6.4277682786#2067#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#2085#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#2142#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#2185#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#2252#63#0(1@0"0(13@23" | payment of any fee.277682786#2315#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#2338#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#2369#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#2419#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#2487#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#2545#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#2592#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#2652#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#2715#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#2754#77#0(1@0"0(13@124"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png277682786#2832#124#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    24524277682786#2956#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    29831277682786#3015#59#0(1@0"0(13@167"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default-pngcrush.png277682786#3074#167#0(1@0"0(13@28"     (21.64% IDAT increase)277682786#3241#28#0(1@0"0(13@32"     (20.90% filesize increase)277682786#3269#32#0(1@0"0(13@50"   CPU time used = 0.134 seconds (decoding 0.003,277682786#3302#50#0(1@0"0(13@47"          encoding 0.129, other 0.003 seconds)277682786#3352#47#0(1@0"0(13@141"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Default.png277682786#3400#141#0(1@0"0(13@18" | pngcrush 1.6.4277682786#3542#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#3560#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#3617#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#3660#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#3727#63#0(1@0"0(13@23" | payment of any fee.277682786#3790#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#3813#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#3844#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#3894#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#3962#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#4020#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#4067#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#4127#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#4190#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#4229#77#0(1@0"0(13@129"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30.png277682786#4307#129#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      537277682786#4436#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      719277682786#4495#59#0(1@0"0(13@172"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30-pngcrush.png277682786#4554#172#0(1@0"0(13@28"     (33.89% IDAT increase)277682786#4726#28#0(1@0"0(13@32"     (28.12% filesize increase)277682786#4754#32#0(1@0"0(13@50"   CPU time used = 0.003 seconds (decoding 0.000,277682786#4787#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277682786#4837#47#0(1@0"0(13@146"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_30.png277682786#4885#146#0(1@0"0(13@18" | pngcrush 1.6.4277682786#5032#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#5050#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#5107#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#5150#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#5217#63#0(1@0"0(13@23" | payment of any fee.277682786#5280#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#5303#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#5334#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#5384#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#5452#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#5510#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#5557#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#5617#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#5680#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#5719#77#0(1@0"0(13@137"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo.png277682786#5797#137#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3122277682786#5934#59#0(1@0"0(13@55"   Truncating trailing opaque entries from tRNS chunk.277682786#5993#55#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3669277682786#6048#59#0(1@0"0(13@180"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo-pngcrush.png277682786#6107#180#0(1@0"0(13@28"     (17.52% IDAT increase)277682786#6287#28#0(1@0"0(13@32"     (12.56% filesize increase)277682786#6315#32#0(1@0"0(13@50"   CPU time used = 0.014 seconds (decoding 0.000,277682786#6348#50#0(1@0"0(13@47"          encoding 0.012, other 0.001 seconds)277682786#6398#47#0(1@0"0(13@154"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_about_logo.png277682786#6446#154#0(1@0"0(13@18" | pngcrush 1.6.4277682786#6601#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#6619#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#6676#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#6719#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#6786#63#0(1@0"0(13@23" | payment of any fee.277682786#6849#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#6872#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#6903#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#6953#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#7021#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#7079#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#7126#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#7186#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#7249#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#7288#77#0(1@0"0(13@133"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger.png277682786#7366#133#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    18115277682786#7499#59#0(1@0"0(13@25"Handling unknown chunk 0277682786#7558#25#0(1@0"0(13@25"Handling unknown chunk 1277682786#7583#25#0(1@0"0(13@25"Handling unknown chunk 2277682786#7608#25#0(1@0"0(13@25"Handling unknown chunk 3277682786#7633#25#0(1@0"0(13@25"Handling unknown chunk 4277682786#7658#25#0(1@0"0(13@25"Handling unknown chunk 5277682786#7683#25#0(1@0"0(13@25"Handling unknown chunk 6277682786#7708#25#0(1@0"0(13@25"Handling unknown chunk 7277682786#7733#25#0(1@0"0(13@25"Handling unknown chunk 8277682786#7758#25#0(1@0"0(13@25"Handling unknown chunk 9277682786#7783#25#0(1@0"0(13@26"Handling unknown chunk 10277682786#7808#26#0(1@0"0(13@26"Handling unknown chunk 11277682786#7834#26#0(1@0"0(13@26"Handling unknown chunk 12277682786#7860#26#0(1@0"0(13@26"Handling unknown chunk 13277682786#7886#26#0(1@0"0(13@26"Handling unknown chunk 14277682786#7912#26#0(1@0"0(13@26"Handling unknown chunk 15277682786#7938#26#0(1@0"0(13@26"Handling unknown chunk 16277682786#7964#26#0(1@0"0(13@26"Handling unknown chunk 17277682786#7990#26#0(1@0"0(13@26"Handling unknown chunk 18277682786#8016#26#0(1@0"0(13@26"Handling unknown chunk 19277682786#8042#26#0(1@0"0(13@26"Handling unknown chunk 20277682786#8068#26#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    19016277682786#8094#59#0(1@0"0(13@176"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger-pngcrush.png277682786#8153#176#0(1@0"0(13@27"     (4.97% IDAT increase)277682786#8329#27#0(1@0"0(13@33"     (70.39% filesize reduction)277682786#8356#33#0(1@0"0(13@50"   CPU time used = 0.104 seconds (decoding 0.004,277682786#8390#50#0(1@0"0(13@47"          encoding 0.092, other 0.008 seconds)277682786#8440#47#0(1@0"0(13@150"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_bigger.png277682786#8488#150#0(1@0"0(13@18" | pngcrush 1.6.4277682786#8639#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#8657#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#8714#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#8757#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#8824#63#0(1@0"0(13@23" | payment of any fee.277682786#8887#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#8910#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#8941#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#8991#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#9059#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#9117#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#9164#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#9224#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#9287#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#9326#77#0(1@0"0(13@138"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo.png277682786#9404#138#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     9506277682786#9542#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     9496277682786#9601#59#0(1@0"0(13@181"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo-pngcrush.png277682786#9660#181#0(1@0"0(13@28"     (0.11% IDAT reduction)277682786#9841#28#0(1@0"0(13@32"     (0.06% filesize reduction)277682786#9869#32#0(1@0"0(13@50"   CPU time used = 0.039 seconds (decoding 0.001,277682786#9902#50#0(1@0"0(13@47"          encoding 0.034, other 0.004 seconds)277682786#9952#47#0(1@0"0(13@155"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/co_header_logo.png277682786#10000#155#0(1@0"0(13@18" | pngcrush 1.6.4277682786#10156#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#10174#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#10231#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#10274#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#10341#63#0(1@0"0(13@23" | payment of any fee.277682786#10404#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#10427#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#10458#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#10508#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#10576#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#10634#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#10681#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#10741#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#10804#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#10843#77#0(1@0"0(13@130"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie.png277682786#10921#130#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      228277682786#11051#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      262277682786#11110#59#0(1@0"0(13@173"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie-pngcrush.png277682786#11169#173#0(1@0"0(13@28"     (14.91% IDAT increase)277682786#11342#28#0(1@0"0(13@31"     (6.15% filesize increase)277682786#11370#31#0(1@0"0(13@50"   CPU time used = 0.001 seconds (decoding 0.000,277682786#11402#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)277682786#11452#47#0(1@0"0(13@147"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie.png277682786#11500#147#0(1@0"0(13@18" | pngcrush 1.6.4277682786#11648#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#11666#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#11723#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#11766#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#11833#63#0(1@0"0(13@23" | payment of any fee.277682786#11896#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#11919#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#11950#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#12000#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#12068#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#12126#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#12173#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#12233#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#12296#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#12335#77#0(1@0"0(13@135"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave.png277682786#12413#135#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      265277682786#12548#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      306277682786#12607#59#0(1@0"0(13@178"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave-pngcrush.png277682786#12666#178#0(1@0"0(13@28"     (15.47% IDAT increase)277682786#12844#28#0(1@0"0(13@31"     (6.05% filesize increase)277682786#12872#31#0(1@0"0(13@50"   CPU time used = 0.001 seconds (decoding 0.000,277682786#12904#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)277682786#12954#47#0(1@0"0(13@152"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/duckie_fave.png277682786#13002#152#0(1@0"0(13@18" | pngcrush 1.6.4277682786#13155#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#13173#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#13230#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#13273#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#13340#63#0(1@0"0(13@23" | payment of any fee.277682786#13403#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#13426#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#13457#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#13507#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#13575#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#13633#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#13680#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#13740#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#13803#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#13842#77#0(1@0"0(13@131"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30.png277682786#13920#131#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      307277682786#14051#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      392277682786#14110#59#0(1@0"0(13@174"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30-pngcrush.png277682786#14169#174#0(1@0"0(13@28"     (27.69% IDAT increase)277682786#14343#28#0(1@0"0(13@32"     (21.31% filesize increase)277682786#14371#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277682786#14404#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277682786#14454#47#0(1@0"0(13@148"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/fave_30.png277682786#14502#148#0(1@0"0(13@18" | pngcrush 1.6.4277682786#14651#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682786#14669#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682786#14726#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682786#14769#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682786#14836#63#0(1@0"0(13@23" | payment of any fee.277682786#14899#23#0(1@0"0(13@31" | Executable name is pngcrush277682786#14922#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682786#14953#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682786#15003#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682786#15071#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682786#15129#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682786#15176#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682786#15236#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682786#15299#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682786#15338#77#0(1@0"0(13@131"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30.png277682786#15416#131#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      348277682786#15547#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      589277682786#15606#59#0(1@0"0(13@174"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30-pngcrush.png277682786#15665#174#0(1@0"0(13@28"     (69.25% IDAT increase)277682786#15839#28#0(1@0"0(13@32"     (58.14% filesize increase)277682786#15867#32#0(1@0"0(13@50"   CPU time used = 0.003 seconds (decoding 0.000,277682786#15900#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277682786#15950#47#0(1@0"0(13@148"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/feed_30.png277682786#15998#148#0(1@0"0(13@18" | pngcrush 1.6.4277682787#16147#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682787#16165#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682787#16222#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682787#16265#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682787#16332#63#0(1@0"0(13@23" | payment of any fee.277682787#16395#23#0(1@0"0(13@31" | Executable name is pngcrush277682787#16418#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682787#16449#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682787#16499#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682787#16567#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682787#16625#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682787#16672#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682787#16732#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682787#16795#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682787#16834#77#0(1@0"0(13@131"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30.png277682787#16912#131#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      330277682787#17043#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      477277682787#17102#59#0(1@0"0(13@174"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30-pngcrush.png277682787#17161#174#0(1@0"0(13@28"     (44.55% IDAT increase)277682787#17335#28#0(1@0"0(13@32"     (38.44% filesize increase)277682787#17363#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277682787#17396#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277682787#17446#47#0(1@0"0(13@148"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/info_30.png277682787#17494#148#0(1@0"0(13@18" | pngcrush 1.6.4277682787#17643#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682787#17661#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682787#17718#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682787#17761#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682787#17828#63#0(1@0"0(13@23" | payment of any fee.277682787#17891#23#0(1@0"0(13@31" | Executable name is pngcrush277682787#17914#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682787#17945#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682787#17995#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682787#18063#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682787#18121#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682787#18168#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682787#18228#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682787#18291#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682787#18330#77#0(1@0"0(13@137"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported.png277682787#18408#137#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     4299277682787#18545#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4830277682787#18604#59#0(1@0"0(13@180"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported-pngcrush.png277682787#18663#180#0(1@0"0(13@28"     (12.35% IDAT increase)277682787#18843#28#0(1@0"0(13@32"     (10.26% filesize increase)277682787#18871#32#0(1@0"0(13@50"   CPU time used = 0.013 seconds (decoding 0.001,277682787#18904#50#0(1@0"0(13@47"          encoding 0.010, other 0.001 seconds)277682787#18954#47#0(1@0"0(13@154"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/not_supported.png277682787#19002#154#0(1@0"0(13@18" | pngcrush 1.6.4277682787#19157#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682787#19175#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682787#19232#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682787#19275#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682787#19342#63#0(1@0"0(13@23" | payment of any fee.277682787#19405#23#0(1@0"0(13@31" | Executable name is pngcrush277682787#19428#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682787#19459#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682787#19509#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682787#19577#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682787#19635#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682787#19682#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682787#19742#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682787#19805#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682787#19844#77#0(1@0"0(13@130"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30.png277682787#19922#130#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      363277682787#20052#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      524277682787#20111#59#0(1@0"0(13@173"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30-pngcrush.png277682787#20170#173#0(1@0"0(13@28"     (44.35% IDAT increase)277682787#20343#28#0(1@0"0(13@32"     (33.40% filesize increase)277682787#20371#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277682787#20404#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277682787#20454#47#0(1@0"0(13@147"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/paw_30.png277682787#20502#147#0(1@0"0(13@18" | pngcrush 1.6.4277682787#20650#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682787#20668#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682787#20725#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682787#20768#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682787#20835#63#0(1@0"0(13@23" | payment of any fee.277682787#20898#23#0(1@0"0(13@31" | Executable name is pngcrush277682787#20921#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682787#20952#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682787#21002#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682787#21070#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682787#21128#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682787#21175#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682787#21235#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682787#21298#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682787#21337#77#0(1@0"0(13@131"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter.png277682787#21415#131#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3420277682787#21546#59#0(1@0"0(13@25"Handling unknown chunk 0277682787#21605#25#0(1@0"0(13@25"Handling unknown chunk 1277682787#21630#25#0(1@0"0(13@25"Handling unknown chunk 2277682787#21655#25#0(1@0"0(13@25"Handling unknown chunk 3277682787#21680#25#0(1@0"0(13@25"Handling unknown chunk 4277682787#21705#25#0(1@0"0(13@25"Handling unknown chunk 5277682787#21730#25#0(1@0"0(13@25"Handling unknown chunk 6277682787#21755#25#0(1@0"0(13@25"Handling unknown chunk 7277682787#21780#25#0(1@0"0(13@25"Handling unknown chunk 8277682787#21805#25#0(1@0"0(13@25"Handling unknown chunk 9277682787#21830#25#0(1@0"0(13@26"Handling unknown chunk 10277682787#21855#26#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3582277682787#21881#59#0(1@0"0(13@174"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter-pngcrush.png277682787#21940#174#0(1@0"0(13@27"     (4.74% IDAT increase)277682787#22114#27#0(1@0"0(13@33"     (70.14% filesize reduction)277682787#22141#33#0(1@0"0(13@50"   CPU time used = 0.007 seconds (decoding 0.000,277682787#22175#50#0(1@0"0(13@47"          encoding 0.003, other 0.004 seconds)277682787#22225#47#0(1@0"0(13@148"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/twitter.png277682787#22273#148#0(1@0"0(13@18" | pngcrush 1.6.4277682787#22422#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277682787#22440#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277682787#22497#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277682787#22540#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277682787#22607#63#0(1@0"0(13@23" | payment of any fee.277682787#22670#23#0(1@0"0(13@31" | Executable name is pngcrush277682787#22693#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277682787#22724#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277682787#22774#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277682787#22842#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277682787#22900#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277682787#22947#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277682787#23007#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277682787#23070#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277682787#23109#77#0(1@0"0(13@137"   Recompressing /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube.png277682787#23187#137#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    11665277682787#23324#59#0(1@0"0(13@25"Handling unknown chunk 0277682787#23383#25#0(1@0"0(13@25"Handling unknown chunk 1277682787#23408#25#0(1@0"0(13@25"Handling unknown chunk 2277682787#23433#25#0(1@0"0(13@25"Handling unknown chunk 3277682787#23458#25#0(1@0"0(13@25"Handling unknown chunk 4277682787#23483#25#0(1@0"0(13@25"Handling unknown chunk 5277682787#23508#25#0(1@0"0(13@25"Handling unknown chunk 6277682787#23533#25#0(1@0"0(13@25"Handling unknown chunk 7277682787#23558#25#0(1@0"0(13@25"Handling unknown chunk 8277682787#23583#25#0(1@0"0(13@25"Handling unknown chunk 9277682787#23608#25#0(1@0"0(13@26"Handling unknown chunk 10277682787#23633#26#0(1@0"0(13@26"Handling unknown chunk 11277682787#23659#26#0(1@0"0(13@26"Handling unknown chunk 12277682787#23685#26#0(1@0"0(13@26"Handling unknown chunk 13277682787#23711#26#0(1@0"0(13@26"Handling unknown chunk 14277682787#23737#26#0(1@0"0(13@26"Handling unknown chunk 15277682787#23763#26#0(1@0"0(13@26"Handling unknown chunk 16277682787#23789#26#0(1@0"0(13@26"Handling unknown chunk 17277682787#23815#26#0(1@0"0(13@26"Handling unknown chunk 18277682787#23841#26#0(1@0"0(13@26"Handling unknown chunk 19277682787#23867#26#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    12529277682787#23893#59#0(1@0"0(13@180"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube-pngcrush.png277682787#23952#180#0(1@0"0(13@27"     (7.41% IDAT increase)277682787#24132#27#0(1@0"0(13@33"     (78.38% filesize reduction)277682787#24159#33#0(1@0"0(13@50"   CPU time used = 0.023 seconds (decoding 0.001,277682787#24193#50#0(1@0"0(13@47"          encoding 0.016, other 0.006 seconds)277682787#24243#47#0(1@0"0(13@154"iphoneos-optimize: Optimized PNG: /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/images/watch_youtube.png277682787#24291#154#0(1@0"0(0#0#0"4301200840#18301"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER tomomi    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv6    setenv ARCHS_STANDARD_32_64_BIT armv6    setenv ARCHS_STANDARD_32_BIT armv6    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv6 armv7"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build    setenv BUILD_ROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503    setenv CCHROOT /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer: Tomomi Imura (8PB35JVJTA)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH iCuteOverload.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv6    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/iCuteOverload.dst    setenv DWARF_DSYM_FILE_NAME iCuteOverload.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH iCuteOverload.app/Executables    setenv EXECUTABLE_FOLDER_PATH iCuteOverload.app    setenv EXECUTABLE_NAME iCuteOverload    setenv EXECUTABLE_PATH iCuteOverload.app/iCuteOverload    setenv FILE_LIST /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH iCuteOverload.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME iCuteOverload.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iCuteOverload_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "'DEPLOYTYPE=test'"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH iCuteOverload.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/iCuteOverload.dst/Users/tomomi/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER tomomi    setenv INSTALL_PATH /Users/tomomi/Applications    setenv INSTALL_ROOT /tmp/iCuteOverload.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH iCuteOverload.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-LinkMap-normal-armv6.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos\"  \"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone\" Resources"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal/armv6/iCuteOverload.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1061    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0601    setenv NATIVE_ARCH armv6    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Objects-normal    setenv OBJROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH iCuteOverload.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/PkgInfo    setenv PKGINFO_PATH iCuteOverload.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH iCuteOverload.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH iCuteOverload.app/PrivateHeaders    setenv PRODUCT_NAME iCuteOverload    setenv PRODUCT_SETTINGS_PATH /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT iCuteOverload    setenv PROJECT_DERIVED_FILE_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/DerivedSources    setenv PROJECT_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PROJECT_FILE_PATH /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload.xcodeproj    setenv PROJECT_NAME iCuteOverload    setenv PROJECT_TEMP_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH iCuteOverload.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH iCuteOverload.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk    setenv SDK_NAME iphoneos3.0    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH iCuteOverload.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH iCuteOverload.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv SRCROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/SymbolRepositories    setenv SYMROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME iCuteOverload    setenv TARGET_BUILD_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos    setenv TARGET_NAME iCuteOverload    setenv TARGET_TEMP_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build    setenv TEMP_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build    setenv TEMP_FILES_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build    setenv TEMP_FILE_DIR /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build    setenv TEMP_ROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build    setenv UID 503    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH iCuteOverload.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER tomomi    setenv USER_APPS_DIR /Users/tomomi/Applications    setenv USER_LIBRARY_DIR /Users/tomomi/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH iCuteOverload.app/version.plist    setenv VERSION_INFO_BUILDER tomomi    setenv VERSION_INFO_FILE iCuteOverload_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:iCuteOverload  PROJECT:iCuteOverload-\""    setenv WEB_SRC_ROOT /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/tmp    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME iCuteOverload.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/Script-B4EA72B50FBC96AA005AA7FB.sh0#
+
+CProcessInfoPlistFile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist Info.plist
+s277682785.836541
+e277682785.876687
+r1
+xProcessInfoPlistFile
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist277682785#277682785#0(0"0(0#0#66"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/Info.plist4301200840#640"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/ResourceRules.plist -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/Info.plist0#
+
+CProcessPCH /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-befiabxxwkusuabzleoyjsacbcyr/iCuteOverload_Prefix.pch.gch iCuteOverload_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277279941.119050
+e277279942.599033
+r1
+xProcessPCH
+x/var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-befiabxxwkusuabzleoyjsacbcyr/iCuteOverload_Prefix.pch.gch
+xiCuteOverload_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile iCuteOverload_Prefix.pch277279941#277279942#0(0"0(0#0#80"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch4301200840#1924"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-generated-files.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-own-target-headers.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-all-target-headers.hmap -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-project-headers.hmap -F/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/include -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources/armv6 -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch -o /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-befiabxxwkusuabzleoyjsacbcyr/iCuteOverload_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch.gch iCuteOverload_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277682789.520768
+e277682791.123212
+r1
+xProcessPCH
+x/var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch.gch
+xiCuteOverload_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile iCuteOverload_Prefix.pch277682789#277682791#0(0"0(0#0#80"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch4301200840#1924"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-generated-files.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-own-target-headers.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-all-target-headers.hmap -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-project-headers.hmap -F/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/include -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources/armv6 -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch -o /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-beylhewvdhiavmbopbajtzkotnzy/iCuteOverload_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-hflmpnogfdecfraywoimptflurno/iCuteOverload_Prefix.pch.gch iCuteOverload_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277098275.953675
+e277098277.567962
+r1
+xProcessPCH
+x/var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-hflmpnogfdecfraywoimptflurno/iCuteOverload_Prefix.pch.gch
+xiCuteOverload_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile iCuteOverload_Prefix.pch277098275#277098277#0(0"0(0#0#80"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch4301197600#1924"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-generated-files.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-own-target-headers.hmap -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-all-target-headers.hmap -iquote /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload-project-headers.hmap -F/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/include -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources/armv6 -I/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/DerivedSources -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/iCuteOverload_Prefix.pch -o /var/folders/D7/D7GqVgPSHn05DkpspdgCbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/iCuteOverload_Prefix-hflmpnogfdecfraywoimptflurno/iCuteOverload_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/tomomi/Library/MobileDevice/Provisioning Profiles/iCO_Provisioning_Profile.mobileprovision" /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision
+s277682792.275344
+e277682792.276628
+r1
+xProcessProductPackaging
+x/Users/tomomi/Library/MobileDevice/Provisioning Profiles/iCO_Provisioning_Profile.mobileprovision
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision
+lSLF07#2@187"ProcessProductPackaging "/Users/tomomi/Library/MobileDevice/Provisioning Profiles/iCO_Provisioning_Profile.mobileprovision" build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision277682792#277682792#0(0"0(0#0#119"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision4301200840#452"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/tomomi/Library/MobileDevice/Provisioning Profiles/iCO_Provisioning_Profile.mobileprovision" -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent
+s277682792.280501
+e277682792.308453
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent277682792#277682792#0(0"0(0#0#136"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent4301200840#484"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent
+s277279944.353116
+e277279944.363851
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent277279944#277279944#0(0"0(0#0#136"/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent4301200840#484"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/iCuteOverload.build/Debug-iphoneos/iCuteOverload.build/iCuteOverload.xcent0#
+
+CTouch /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+s277682792.276680
+e277682792.280244
+r1
+xTouch
+x/Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app
+lSLF07#2@100"Touch /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app277682792#277682792#0(0"0(0#0#0"4301200840#304"    cd /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tomomi/Sites/titanium/iCuteOverload/build/iphone/build/Debug-iphoneos/iCuteOverload.app0#
+

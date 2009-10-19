@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="content.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="spinner"></div>
+		<div id="container">
+			<h2 id="title"></h2>
+			<div id="date"></div>
+			<div id="content"></div>
+		</div>
+		
+		<script>
+
+			window.onload = function(){
+				initContent('#50B8E0','tag-content.html');
+			}
+		</script>
+	</body>
+</html>

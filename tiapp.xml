@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.girliemac.icuteoverload</id>
+<name>iCuteOverload</name>
+<version>0.9.0</version>
+<icon>appicon.png</icon>
+	<persistent-wifi>false</persistent-wifi>
+	<prerendered-icon>true</prerendered-icon>
+    <windows>
+        <window>
+            <id>feed</id>
+            <url>index.html</url>
+			<title>Latest Feed</title>
+			<icon>images/co_30.png</icon>
+			<barColor>#FDDA66</barColor>
+			<fullscreen>false</fullscreen>
+			<orientation>either</orientation>
+        </window>
+		<window>
+            <id>tags</id>
+            <url>tags.html</url>
+			<title>Tags</title>
+			<icon>images/paw_30.png</icon>
+			<barColor>#50B8E0</barColor>
+			<fullscreen>false</fullscreen>
+			<orientation>either</orientation>
+        </window>
+		<window>
+            <id>favorites</id>
+            <url>favorites.html</url>
+			<title>Favorites</title>
+			<icon>images/fave_30.png</icon>
+			<barColor>#FFA3C8</barColor>
+			<fullscreen>false</fullscreen>
+			<orientation>either</orientation>
+        </window>
+        <window>
+            <id>about</id>
+            <url>about.html</url>
+			<title>About</title>
+			<icon>images/info_30.png</icon>
+            <barColor>#FDDA66</barColor>
+			<fullscreen>false</fullscreen>
+			<orientation>either</orientation>
+        </window>
+    </windows>
+<guid>d3867365b2e54d738b29dc90543177f3</guid>
+</ti:app>
