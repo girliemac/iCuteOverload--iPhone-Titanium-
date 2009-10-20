@@ -92,7 +92,7 @@ function displayList(html){
 			if (html == 'content.html') {
 				Titanium.UI.currentWindow.setTitleImage('images/co_header_logo.png');
 			}
-		})
+		});
 		
 	
 		// preload the image to be displayed at new window
@@ -154,20 +154,21 @@ function tweakContent(){
 		
 		// *** Find a video embed ***
 		
-		var youtubeThumb = /<img[\S\s]+?http:\/\/img\.youtube\.com\/vi\/([\w\-]+)\/2.jpg"[\S\s]+?\/>/i;
-		var youtubeEmbed = /<object[\S\s]+?http:\/\/www\.youtube\.com\/v\/([\w\-]+)[\S\s]+?<\/object>/i;
+		var youtubeThumb = /(<img src="http:\/\/img\.youtube\.com\/vi\/([\w\-]+)\/2.jpg"[\S\s]+? \/>)/ig;
+		var youtubeEmbed = /<object[\S\s]+?http:\/\/www\.youtube\.com\/v\/([\w\-]+)[\S\s]+?<\/object>/ig;
 		
-		var youtubeButton = '<a href="http://www.youtube.com/watch?v=$1"><img src="images/watch_youtube.png" alt="watch!" class="$1" id="youtubeBtn" /></a>';
-		
+		var youtubeThumbButton = '<div class="youtubeThumb">$1<a href="http://www.youtube.com/watch?v=$2"><img src="images/play_red.png" class="play"/></a></div>';
+		var youtubeThumbButtonGeneric = '<a href="http://www.youtube.com/watch?v=$1"><img src="images/youttube_thumb_generic" alt="play" id="youtubeBtn" /></a>';
+
 		if (str.match(youtubeThumb)) {
-			str = str.replace(youtubeThumb, youtubeButton);
+			str = str.replace(youtubeThumb, youtubeThumbButton);
 		}
 		if (str.match(youtubeEmbed)) {
-			str = str.replace(youtubeEmbed, youtubeButton);
+			str = str.replace(youtubeEmbed, youtubeThumbButtonGeneric);
 		}
 		
 		// If there's non-Youtube video:
-		var videoEmbed = /<object[\S\s]*<\/object>/i;
+		var videoEmbed = /<object[\S\s]*<\/object>/ig;
 		var message = '<img src="images/not_supported.png" alt="Not supported" class="video" />';
 		
 		if (str.match(videoEmbed)) {

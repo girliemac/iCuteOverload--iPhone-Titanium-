@@ -79,6 +79,10 @@ function displayContent(){
 	for (var i = 0; i < imgs.length; i++) {
 		imgs[i].removeAttribute("width");
 		imgs[i].removeAttribute("height");
+		
+		//if (/img\.youtube\.com/.test(imgs[i].src)) {
+		//	imgs[i].width = '200';
+		//}
 	}
 	
 	document.getElementById('title').innerHTML = list[listIndex].title;

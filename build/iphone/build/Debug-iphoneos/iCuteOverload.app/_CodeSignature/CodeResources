@@ -12,6 +12,10 @@
 		<data>
 		B9l+iekGKRgGXXOA6blJTr7JMxU=
 		</data>
+		<key>.tmp_about.html.49427~</key>
+		<data>
+		w6SPoU0srz4PNfIEnQDoFed847A=
+		</data>
 		<key>.tmp_about.html.591~</key>
 		<data>
 		1U1Gjfz6v/QOU0t2LP0HKA42Xa4=
@@ -210,7 +214,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		dhxQzm8a1FbeM//6Vzo/WZ+uPng=
+		zJbWtr17Ia7yVlqypIhkBonlBdA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -266,11 +270,15 @@
 		</data>
 		<key>images/not_supported.png</key>
 		<data>
-		F9sE5ly1ZZ/7Gvu6vi8+j5tdJKw=
+		wGK4EuTlKlpj9F4yUhaK3PO3Ous=
 		</data>
 		<key>images/paw_30.png</key>
 		<data>
 		tXn994FXZ9vgVWMsZzhbLTC9DpM=
+		</data>
+		<key>images/play_red.png</key>
+		<data>
+		gna0psPyyf6eSODV3LwvFMyaDCQ=
 		</data>
 		<key>images/twitter.png</key>
 		<data>
@@ -280,9 +288,13 @@
 		<data>
 		jdE/tV0FwdsVYOIhjZ9uEsRuhfU=
 		</data>
+		<key>images/youttube_thumb_generic.png</key>
+		<data>
+		J9l6ijJuRSwclNo/3zyyfNwhHNo=
+		</data>
 		<key>tiapp.plist</key>
 		<data>
-		GIRqQjc8gmNWQ0QrOcBG+gUGeV8=
+		D3hjXeoLUuxjceWSpvSvubrr/8E=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
 <id>com.girliemac.icuteoverload</id>
 <name>iCuteOverload</name>
-<version>0.9.0</version>
+<version>0.9.5</version>
 <icon>appicon.png</icon>
 	<persistent-wifi>false</persistent-wifi>
 	<prerendered-icon>true</prerendered-icon>

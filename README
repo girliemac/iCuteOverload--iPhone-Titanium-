@@ -1,11 +1,23 @@
-Welcome to your Appcelerator Titanium Mobile Project
+[iCuteOverload]
 
+App:
+iCuteOverload is an iPhone app, a handy viewer for the award-winning popular blog 
+CuteOverload, maintained by Megan Frost. 
+The contents of the original rss feed is maintained by the author of the blog, 
+and copyrighted by her as well, while the copyright of this appis owned by me, 
+Tomomi Imura, and all rights are reserved.
 
+Code:
+All source code in Resources/ has been written in JavaScript, and everything in 
+build/ are the files that have been compiled and created for native distributions, 
+by Appcelerator Titanium Mobile.
 
 
 
 
 ----------------------------------
+[Appcelerator Titanium Mobile Project]
+
 Stuff our legal folk make us say:
 
 Appcelerator, Appcelerator Titanium and associated marks and logos are 
