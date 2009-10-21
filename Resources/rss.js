@@ -1,62 +1,72 @@
 var list = [];
 	
-function init(feedUrl,html,barColor){
-	var thisWin = Titanium.UI.currentWindow;	
-	thisWin.setBarColor(barColor);
-	
-	// Add a Refresh button
-	var refreshBtn = Titanium.UI.createButton({
-		    systemButton:Titanium.UI.iPhone.SystemButton.REFRESH
-		});
-	thisWin.setRightNavButton(refreshBtn);		
-	refreshBtn.addEventListener('click', function(e){
-		fetchFeed(feedUrl,html);
-	});
-	
-	fetchFeed(feedUrl,html);	
-	
-}
-	
-function fetchFeed(feedUrl,html){
-	var xhr = Titanium.Network.createHTTPClient();
-	xhr.onreadystatechange = function() {
-		if (this.readyState == 4) {
-			var xml = this.responseXML;
-			createList(xml,html);
-			ind.hide();
+/* *** Modifying the fetched content to be displayed ** */ 
+
+function tweakContent(){
+
+	for (var j = 0; j < list.length; j++) {
+		
+		str = list[j].content;
+		// *** Remove links from images ***
+		
+		var linkedImage = /<a[^>]*>(<img [^>]* \/>)<\/a>/ig;
+		if (str.match(linkedImage)) {
+			str = str.replace(linkedImage, '$1');
 		}
-	};
-	// open the client
-	xhr.open('GET',feedUrl);
-	
-	// create an initial spinner
-	var ind = Titanium.UI.createActivityIndicator({
-		id:'spinner',
-		style:Titanium.UI.iPhone.ActivityIndicatorStyle.DARK
-	});
-	
-	ind.show();
-	
-	// send the data
-	xhr.send();
+		
+		// *** Remove Digg links etc. ***
+
+		var junk = /Posted in (Uncategorized|Top 4) [\S\s]*/;
+		if (str.match(junk)) {
+			str = str.replace(junk, '');
+		}
+		
+		// *** Find a video embed ***
+		
+		var youtubeThumb = /(<img src="http:\/\/img\.youtube\.com\/vi\/([\w\-]+)\/2.jpg"[\S\s]+? \/>)/ig;
+		var youtubeEmbed = /<object[\S\s]+?http:\/\/www\.youtube\.com\/v\/([\w\-]+)[\S\s]+?<\/object>/ig;
+		
+		var youtubeThumbButton = '<div class="youtubeThumb">$1<a href="http://www.youtube.com/watch?v=$2"><img src="images/play.png" class="play"/></a></div>';
+		var youtubeThumbButtonGeneric = '<a href="http://www.youtube.com/watch?v=$1"><img src="images/youttube_thumb_generic" alt="play" id="youtubeBtn" /></a>';
+
+		if (str.match(youtubeThumb)) {
+			str = str.replace(youtubeThumb, youtubeThumbButton);
+		}
+		if (str.match(youtubeEmbed)) {
+			str = str.replace(youtubeEmbed, youtubeThumbButtonGeneric);
+		}
+		
+		// If there's non-Youtube video:
+		var videoEmbed = /<object[\S\s]*<\/object>/ig;
+		var message = '<img src="images/not_supported.png" alt="Not supported" class="video" />';
+		
+		if (str.match(videoEmbed)) {
+			console.log(videoEmbed);
+			str = str.replace(videoEmbed, message);
+		}
+		
+		// *** Image size hack on WordPress
+		// [A-Za-z]{3,4} = jpg, png, jpeg etc.
+		
+		var imgQuery = /src="(http:\/\/cuteoverload.files.wordpress.com[\S\s]+?\.[A-Za-z]{3,4})\?[\S\s]+?"/ig;
+		
+		if(imgQuery.test(str)){
+			var newImg = 'src="$1?w=300"';
+			str = str.replace(imgQuery,newImg);
+		}
+		
+		var imgSrc = /src="(http:\/\/cuteoverload.files.wordpress.com[\S\s]+?\.[A-Za-z]{3,4})"/ig;
+		
+		if(imgSrc.test(str)){
+			var newImg2 = 'src="$1?w=300"';
+			str = str.replace(imgSrc,newImg2);
+		}
+		
+		list[j].content = str;
+	}
 }
 
-function createList(xml,html) {
-	var rssItems = xml.getElementsByTagName("item");
-	for (i = 0; i < rssItems.length; i++) {
-		list.push ({
-			title: unescape(rssItems[i].getElementsByTagName("title").item(0).textContent),
-			date: rssItems[i].getElementsByTagName("pubDate").item(0).textContent,
-			content: rssItems[i].getElementsByTagNameNS("http://purl.org/rss/1.0/modules/content/","encoded").item(0).textContent,
-			url: rssItems[i].getElementsByTagName("link").item(0).textContent,
-			hasChild:true,
-			image: 'images/duckie.png'
-		});
-	}
-	
-	// display the data
-	displayList(html);
-}
+/* *** TableView UI and Event ** */
 
 function displayList(html){
 	// re-write the fetched feed content
@@ -109,6 +119,7 @@ function displayList(html){
 				
 				Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> opening img.src= ' + img.src);
 				
+				// note to myself - watch the scope when using a closure inside of loop - i would be always the last value
 				img.onload = function(){
 					j++;
 					if(j == imgTags.length){
@@ -133,67 +144,67 @@ function displayList(html){
 	Titanium.UI.currentWindow.showView(tableView);
 }
 
-function tweakContent(){
 
-	for (var j = 0; j < list.length; j++) {
-		
-		str = list[j].content;
-		// *** Remove links from images ***
-		
-		var linkedImage = /<a[^>]*>(<img [^>]* \/>)<\/a>/ig;
-		if (str.match(linkedImage)) {
-			str = str.replace(linkedImage, '$1');
-		}
-		
-		// *** Remove Digg links etc. ***
+/* *** Building List from Fetched Data ** */
 
-		var junk = /Posted in (Uncategorized|Top 4) [\S\s]*/;
-		if (str.match(junk)) {
-			str = str.replace(junk, '');
-		}
-		
-		// *** Find a video embed ***
-		
-		var youtubeThumb = /(<img src="http:\/\/img\.youtube\.com\/vi\/([\w\-]+)\/2.jpg"[\S\s]+? \/>)/ig;
-		var youtubeEmbed = /<object[\S\s]+?http:\/\/www\.youtube\.com\/v\/([\w\-]+)[\S\s]+?<\/object>/ig;
-		
-		var youtubeThumbButton = '<div class="youtubeThumb">$1<a href="http://www.youtube.com/watch?v=$2"><img src="images/play_red.png" class="play"/></a></div>';
-		var youtubeThumbButtonGeneric = '<a href="http://www.youtube.com/watch?v=$1"><img src="images/youttube_thumb_generic" alt="play" id="youtubeBtn" /></a>';
-
-		if (str.match(youtubeThumb)) {
-			str = str.replace(youtubeThumb, youtubeThumbButton);
-		}
-		if (str.match(youtubeEmbed)) {
-			str = str.replace(youtubeEmbed, youtubeThumbButtonGeneric);
-		}
-		
-		// If there's non-Youtube video:
-		var videoEmbed = /<object[\S\s]*<\/object>/ig;
-		var message = '<img src="images/not_supported.png" alt="Not supported" class="video" />';
-		
-		if (str.match(videoEmbed)) {
-			console.log(videoEmbed);
-			str = str.replace(videoEmbed, message);
-		}
-		
-		// *** Image size hack on WordPress
-		// [A-Za-z]{3,4} = jpg, png, jpeg etc.
-		
-		var imgQuery = /src="(http:\/\/cuteoverload.files.wordpress.com[\S\s]+?\.[A-Za-z]{3,4})\?[\S\s]+?"/ig;
-		
-		if(imgQuery.test(str)){
-			var newImg = 'src="$1?w=300"';
-			str = str.replace(imgQuery,newImg);
-		}
-		
-		var imgSrc = /src="(http:\/\/cuteoverload.files.wordpress.com[\S\s]+?\.[A-Za-z]{3,4})"/ig;
-		
-		if(imgSrc.test(str)){
-			var newImg2 = 'src="$1?w=300"';
-			str = str.replace(imgSrc,newImg2);
-		}
-		
-		list[j].content = str;
+function createList(xml,html) {
+	var rssItems = xml.getElementsByTagName("item");
+	for (i = 0; i < rssItems.length; i++) {
+		list.push ({
+			title: unescape(rssItems[i].getElementsByTagName("title").item(0).textContent),
+			date: rssItems[i].getElementsByTagName("pubDate").item(0).textContent,
+			content: rssItems[i].getElementsByTagNameNS("http://purl.org/rss/1.0/modules/content/","encoded").item(0).textContent,
+			url: rssItems[i].getElementsByTagName("link").item(0).textContent,
+			hasChild:true,
+			image: 'images/duckie.png'
+		});
 	}
+	
+	// display the data
+	displayList(html);
 }
 
+/* *** XHR Call ** */
+
+function fetchFeed(feedUrl,html){
+	var xhr = Titanium.Network.createHTTPClient();
+	xhr.onreadystatechange = function() {
+		if (this.readyState == 4) {
+			var xml = this.responseXML;
+			createList(xml,html);
+			ind.hide();
+		}
+	};
+	// open the client
+	xhr.open('GET',feedUrl);
+	
+	// create an initial spinner
+	var ind = Titanium.UI.createActivityIndicator({
+		id:'spinner',
+		style:Titanium.UI.iPhone.ActivityIndicatorStyle.DARK
+	});
+	
+	ind.show();
+	
+	// send the data
+	xhr.send();
+}
+
+/* *** Init ** */
+
+function init(feedUrl,html,barColor){
+	var thisWin = Titanium.UI.currentWindow;	
+	thisWin.setBarColor(barColor);
+	
+	// Add a Refresh button
+	var refreshBtn = Titanium.UI.createButton({
+		    systemButton:Titanium.UI.iPhone.SystemButton.REFRESH
+		});
+	thisWin.setRightNavButton(refreshBtn);		
+	refreshBtn.addEventListener('click', function(e){
+		fetchFeed(feedUrl,html);
+	});
+	
+	fetchFeed(feedUrl,html);	
+	
+}

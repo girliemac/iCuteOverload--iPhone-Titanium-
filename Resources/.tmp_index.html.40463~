@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="rss.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="spinner"></div>
+	
+	<script>
+	// Open DB
+	var db = Titanium.Database.open('cuteDB');
+	db.execute('CREATE TABLE IF NOT EXISTS myFavorites(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, title TEXT, date TEXT, content TEXT, url TEXT)');
+	db.remove();
+	
+	Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> DB Table, myFavorites created');
+	db.close();
+	
+	var feed = 'http://cuteoverload.com/feed/';
+	var html = 'content.html';
+	var barColor = '#FDDA66';
+	
+	
+	window.onload = function(){
+		Titanium.UI.currentWindow.setTitleImage('images/co_header_logo.png');
+		init(feed,html,barColor);
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<script>
+
+		window.onload = function(){
+			var list = getData();
+			//Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> Fave list length= '+list.length);
+			var win = Titanium.UI.currentWindow;
+			
+			var tableView = Titanium.UI.createTableView({data:list}, function(e) {
+				var idx = e.index;
+				
+				var prop = Titanium.App.Properties;
+				prop.setInt('index', idx);
+				prop.setList('list', list);
+				
+				var win = Titanium.UI.createWindow({url:'fave-content.html'});
+				win.setBarColor('#FFA3C8');
+				
+				// create a spinner
+					var ind = Titanium.UI.createActivityIndicator();
+					Titanium.UI.currentWindow.setTitleControl(ind);
+					ind.show();
+					
+				// when we lose focus, change the title back to an image 
+				Titanium.UI.currentWindow.addEventListener('unfocused',function() { 
+					Titanium.UI.currentWindow.setTitleControl(null); 
+				})
+				
+				// preload the image to be opened
+				var contentDiv = document.createElement('div');
+				contentDiv.innerHTML = list[idx].content;
+				
+				if (contentDiv.getElementsByTagName("img")[0]) {
+					var imgTags = contentDiv.getElementsByTagName("img");
+					var j=0;
+					
+					for(var i=0; i<imgTags.length; i++) {
+						var img = new Image();
+		    			img.src = imgTags[i].src;
+						
+						Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> opening img.src= ' + img.src);
+						
+						img.onload = function(){
+							j++;
+							if(j == imgTags.length){
+							ind.hide();
+							win.open({
+								animated: true
+								});
+							}
+						};
+					}
+				}else{
+					ind.hide();
+					win.open({
+							animated: true
+						});
+				}
+				});
+			
+			// Refresh the data and rebuild the view when the page is re-displayed
+			Titanium.UI.currentWindow.addEventListener('focused',function() { 
+				list = getData(); 
+				tableView.setData(list,{
+					animationStyle: Titanium.UI.iPhone.RowAnimationStyle.DOWN
+				}); 
+
+			}) 
+			
+			Titanium.UI.currentWindow.addView(tableView);
+			Titanium.UI.currentWindow.showView(tableView);
+			
+			// get data from DB
+			function getData(){
+				var faveList = [];
+				
+				var db = Titanium.Database.open('cuteDB');
+				var rows = db.execute('SELECT * FROM myFaves');
+				
+				while (rows.isValidRow()) {
+					faveList.push({
+						id: rows.fieldByName('id'),
+						title: rows.fieldByName('title'),
+						date: rows.fieldByName('date'),
+						content: rows.fieldByName('content'),
+						hasChild: true,
+						image: 'images/duckie_fave.png'
+					});
+					rows.next();
+				}
+				db.close();
+	
+				// make the newest addition on top
+				faveList.reverse();
+				
+				return faveList;
+			}
+			
+			// To do - swipe to delete - feature avail Q4 2009 in Titanium
+		}
+		
+		</script>
+	</body>
+</html>

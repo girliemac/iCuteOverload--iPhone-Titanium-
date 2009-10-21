@@ -30,7 +30,18 @@
 	};
 	
 	document.getElementById('twitter').addEventListener('click', function(e){
-		Titanium.Platform.openURL('http://m.twitter.com/girliemac_apps');
+		//Titanium.Platform.openURL('http://m.twitter.com/girliemac_apps');
+		var w = Titanium.UI.createWindow({url:'http://m.twitter.com/girliemac_apps',barColor:'#000000',title:'Loading ...'});
+		w.open({modal:true});
+		
+		var button = Titanium.UI.createButton({
+			title:'Close'
+		});
+		w.setRightNavButton(button);
+		button.addEventListener('click',function()
+		{
+			w.close();
+		});
 	});
 	document.getElementById('appcelerator').addEventListener('click', function(e){
 		Titanium.Platform.openURL('http://appcelerator.com');

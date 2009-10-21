@@ -80,25 +80,36 @@
 			function getData(){
 				var faveList = [];
 				
-				var db = Titanium.Database.open('cuteDB');
-				var rows = db.execute('SELECT * FROM myFavorites');
-				
-				while (rows.isValidRow()) {
-					faveList.push({
-						id: rows.fieldByName('id'),
-						title: rows.fieldByName('title'),
-						date: rows.fieldByName('date'),
-						content: rows.fieldByName('content'),
-						hasChild: true,
-						image: 'images/duckie_fave.png'
-					});
-					rows.next();
+				try {
+					var db = Titanium.Database.open('cuteDB');
+					var rows = db.execute('SELECT * FROM myFaves');
+					
+					while (rows.isValidRow()) {
+						Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> DB id= ' + rows.fieldByName('id'));
+						faveList.push({
+							id: rows.fieldByName('id'),
+							title: rows.fieldByName('title'),
+							date: rows.fieldByName('date'),
+							content: rows.fieldByName('content'),
+							url: rows.fieldByName('url'),
+							hasChild: true,
+							image: 'images/duckie_fave.png'
+						});
+						rows.next();
+					}
+					db.close();
+					
+					// make the newest addition on top
+					faveList.reverse();
 				}
-				db.close();
-	
-				// make the newest addition on top
-				faveList.reverse();
-				
+				catch(e){
+					//Titanium.API.debug(e);
+					var msg = Titanium.UI.createAlertDialog();
+					msg.setTitle('DB Error');
+					msg.setButtonNames(['OK']);
+					msg.setMessage(e); 
+					msg.show();	
+				}
 				return faveList;
 			}
 			

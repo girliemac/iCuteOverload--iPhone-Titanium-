@@ -9,36 +9,63 @@ if (Titanium.App.Properties.getList('list') != null) {
 	list = Titanium.App.Properties.getList('list');
 }
 
+/* *** UI Components and Events ** */
 
-function initContent (barColor,html,isFave){
+function addToFavorites() {
+	// Save to DB
+	var db = Titanium.Database.open('cuteDB');
+	db.execute('INSERT INTO myFaves (title, date, content, url) VALUES (?,?,?,?)', list[listIndex].title, list[listIndex].date, list[listIndex].content,list[listIndex].url);
+	Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> One data added');
 	
-// *** Set up UI
+	var msg = Titanium.UI.createAlertDialog();
+	msg.setTitle('Added to Favorites!');
+	msg.setButtonNames(['OK']);
+	//msg.setMessage('You have added this to Favorites!'); 
+	msg.show();	
 	
-	var win = Titanium.UI.currentWindow;
-	//win.setBarColor(barColor);
+	db.close();
+}
+
+function deleteFavorites() {	
+	Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> DB id to be deleted= '+ list[listIndex].id);
+
+	// create a dialog
+	var dialog = Titanium.UI.createOptionDialog();
 	
-	// Set System Bar button at Right
-	if (listIndex < list.length - 1) {
-		var nextBtn = Titanium.UI.createButton({
-			systemButton: Titanium.UI.iPhone.SystemButton.PLAY
-		});
-		win.setRightNavButton(nextBtn);
-		nextBtn.addEventListener('click', function(e){
-			geNextContent(html,barColor,isFave);
-		});
-	}
+	// set button titles
+	dialog.setOptions(["Delete Favorite","Cancel"]);
 	
-	// Set Button Bar
-	setButtonBar(barColor,isFave);
+	// set title
+	dialog.setTitle('This action cannot be undone. Are you sure?');
+
+	dialog.setDestructive(0); //red button
+	dialog.setCancel(1);
 	
-	// Set Button Bar again when we lose focus
-	Titanium.UI.currentWindow.addEventListener('unfocused',function() { 
-		Titanium.UI.currentWindow.setTitleControl(null); 
-		setButtonBar(barColor,isFave);
-	})
 	
-// *** Display Main Contents
-	displayContent();
+	dialog.addEventListener('click',function(e){
+		if (e.index == 0){ // Delete is pressed
+			// Delete from DB
+			var db = Titanium.Database.open('cuteDB');
+			db.execute('DELETE FROM myFaves WHERE id=?', list[listIndex].id);
+			Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> One data deleted');
+			db.close();
+
+			Titanium.UI.currentWindow.close();
+		}
+	});
+	
+	dialog.show();
+}
+
+function emailUrl() {
+	var subject = 'A Cute Found on CuteOverload!';
+	var link = list[listIndex].url;
+	var message = 'Check out this link that I found using iCuteOverload App for iPhone! '+link;
+	
+	var emailDialog = Titanium.UI.createEmailDialog();
+	emailDialog.setSubject(subject);
+	emailDialog.setMessageBody(message);
+	emailDialog.open();
 }
 
 function setButtonBar(barColor, isFave){
@@ -70,6 +97,8 @@ function setButtonBar(barColor, isFave){
 	Titanium.UI.currentWindow.setTitleControl(inst);
 }
 
+/* *** Main Content Display ** */
+
 function displayContent(){
 	// Remove hard-coded width and height attr 
 	var div = document.createElement('div');
@@ -91,6 +120,8 @@ function displayContent(){
 	//Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> Final html= ' + document.getElementById('content').innerHTML);
 }
 
+/* *** Event Action - Prepare then go to the Next page  ** */
+
 function geNextContent(html,barColor,isFave){
 	var nextIndex = listIndex + 1;
 	Titanium.App.Properties.setInt('index', nextIndex);
@@ -105,6 +136,28 @@ function geNextContent(html,barColor,isFave){
 				url: html
 			});
 	win.setBarColor(barColor);
+	
+	// i wish i could reduce this redunduncy...
+	var btns;
+	if (isFave) {
+		btns = Titanium.UI.createButtonBar({
+			labels: ['Share', 'Delete'],
+			backgroundColor: barColor
+		});
+	}else{
+		btns = Titanium.UI.createButtonBar({
+			labels: ['Share', 'Save'],
+			backgroundColor: barColor
+		});
+	}
+	win.setTitleControl(btns);
+	
+	if (nextIndex < list.length - 1) {
+		var nextBtn = Titanium.UI.createButton({
+			systemButton: Titanium.UI.iPhone.SystemButton.PLAY
+		});
+		win.setRightNavButton(nextBtn);
+	}
 	
 	// preload next image
 	var contentDiv = document.createElement('div');
@@ -142,96 +195,36 @@ function geNextContent(html,barColor,isFave){
 	}
 	
 }
-function addToFavorites() {
-	// Save to DB
-	var db = Titanium.Database.open('cuteDB');
-	db.execute('INSERT INTO myFavorites (title, date, content) VALUES (?,?,?)', list[listIndex].title, list[listIndex].date, list[listIndex].content);
-	Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> One data added');
-	
-	var msg = Titanium.UI.createAlertDialog();
-	msg.setTitle('Added to Favorites!');
-	msg.setButtonNames(['OK']);
-	//msg.setMessage('You have added this to Favorites!'); 
-	msg.show();	
-	
-	db.close();
-}
 
-function deleteFavorites() {	
-	Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> DB id to be deleted= '+ list[listIndex].id);
+/* *** Init onload ** */
 
-	// create a dialog
-	var dialog = Titanium.UI.createOptionDialog();
+function initContent (barColor,html,isFave){
 	
-	// set button titles
-	dialog.setOptions(["Delete Favorite","Cancel"]);
+// *** Set up UI
 	
-	// set title
-	dialog.setTitle('This action cannot be undone. Are you sure?');
-
-	dialog.setDestructive(0); //red button
-	dialog.setCancel(1);
+	var win = Titanium.UI.currentWindow;
+	//win.setBarColor(barColor);
 	
+	// Set System Bar button at Right
+	if (listIndex < list.length - 1) {
+		var nextBtn = Titanium.UI.createButton({
+			systemButton: Titanium.UI.iPhone.SystemButton.PLAY
+		});
+		win.setRightNavButton(nextBtn);
+		nextBtn.addEventListener('click', function(e){
+			geNextContent(html,barColor,isFave);
+		});
+	}
 	
-	dialog.addEventListener('click',function(e){
-		if (e.index == 0){ // Delete is pressed
-			// Delete from DB
-			var db = Titanium.Database.open('cuteDB');
-			db.execute('DELETE FROM myFavorites WHERE id=?', list[listIndex].id);
-			Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> One data deleted');
-			db.close();
-
-			Titanium.UI.currentWindow.close();
-		}
+	// Set Button Bar
+	setButtonBar(barColor,isFave);
+	
+	// Set Button Bar again when we lose focus
+	Titanium.UI.currentWindow.addEventListener('unfocused',function() { 
+		Titanium.UI.currentWindow.setTitleControl(null); 
+		setButtonBar(barColor,isFave);
 	});
 	
-	dialog.show();
+// *** Display Main Contents
+	displayContent();
 }
-
-function emailUrl() {
-	var subject = 'A Cute Found on CuteOverload!';
-	var link = list[listIndex].url;
-	var message = 'Check out this link that I found using iCuteOverload App for iPhone! '+link;
-	
-	var emailDialog = Titanium.UI.createEmailDialog();
-	emailDialog.setSubject(subject);
-	emailDialog.setMessageBody(message);
-	emailDialog.open();
-}
-
-
-/*
-function showOptions() {
-	// create a dialog
-	var dialog = Titanium.UI.createOptionDialog();
-	
-	// set button titles
-	dialog.setOptions(["Add to My Favorites","Share via Email","Cancel"]);
-	
-	// set title
-	//dialog.setTitle('Options:');
-
-	// set index for cancel
-	dialog.setCancel(2);
-	
-	//dialog.setDestructive(1); -- red button
-	
-	// add event listener
-	dialog.addEventListener('click',function(e)
-	{
-		switch (e.index) {
-			case 0:{
-				addToFavorites();
-				break;
-			}
-			case 1:{
-				emailUrl();
-				break;
-			}
-		}
-	});
-	
-	// show dialog
-	dialog.show();			
-}
-*/

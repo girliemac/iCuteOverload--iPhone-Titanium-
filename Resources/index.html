@@ -10,8 +10,8 @@
 	<script>
 	// Open DB
 	var db = Titanium.Database.open('cuteDB');
-	db.execute('CREATE TABLE IF NOT EXISTS myFavorites(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, title TEXT, date TEXT, content TEXT)');
-	Titanium.API.log('>>>>>>>>>>>>>>>>>>>>>>>>>> DB Table, myFavorites created');
+	db.execute('CREATE TABLE IF NOT EXISTS myFaves(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, title TEXT, date TEXT, content TEXT, url TEXT)');
+	
 	db.close();
 	
 	var feed = 'http://cuteoverload.com/feed/';
